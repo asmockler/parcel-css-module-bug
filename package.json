@@ -1,0 +1,16 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build:correct": "parcel build --dist-dir dist-correct ./src/index.html",
+    "build:bug": "parcel build --no-scope-hoist --dist-dir dist-bug ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
